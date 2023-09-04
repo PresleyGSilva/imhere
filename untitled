@@ -1,0 +1,5 @@
+- [] 1. No caminho do usuário e no nome da pasta nçao utilize caracteres especiais (ex: C:/Área de Teabalho/projeto).
+
+- [] 2. Evite também espaços em branco. E evite caracteres especiais, porque sempre quebra o build do Gradle no Android. O local mais comum de acontencer isso é no Windows quando a pessoa cria na áre de trabalho ou possui um nome com o acento e por algum motivo o Windows buga e cria o usuário dela com acento (ex: C:/Users/Fulando).
+
+- [] 3. Não crie o projeto dentro de pastas sincronixadas (ex: OnDrive, Google Drive) porque isso acaba quebrando o coódigo ou impedindo os scrips de executar.  
